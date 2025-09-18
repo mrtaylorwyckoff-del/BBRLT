@@ -13144,6 +13144,10 @@ GameObject:
   - component: {fileID: 527605755}
   - component: {fileID: 527605754}
   - component: {fileID: 527605756}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 527605758}
+>>>>>>> 80e48b8365f2dba5bfe77237bbf1b3a73ba9d855
   - component: {fileID: 527605757}
   m_Layer: 0
   m_Name: king can_0
@@ -13441,14 +13445,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+<<<<<<< HEAD
 --- !u!61 &527605757
 BoxCollider2D:
+=======
+--- !u!95 &527605757
+Animator:
+  serializedVersion: 7
+>>>>>>> 80e48b8365f2dba5bfe77237bbf1b3a73ba9d855
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527605750}
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -13487,6 +13498,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 10.65, y: 7.07}
   m_EdgeRadius: 0
+=======
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 05f58e034f434af448dba4ce557a207b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!111 &527605758
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527605750}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 0}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
+>>>>>>> 80e48b8365f2dba5bfe77237bbf1b3a73ba9d855
 --- !u!1 &587954764
 GameObject:
   m_ObjectHideFlags: 0
