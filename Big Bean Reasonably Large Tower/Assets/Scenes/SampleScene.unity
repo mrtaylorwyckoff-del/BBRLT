@@ -5996,6 +5996,8 @@ Transform:
   - {fileID: 1531812054}
   - {fileID: 1421949069}
   - {fileID: 1736354401}
+<<<<<<< HEAD
+=======
   - {fileID: 27420046}
   - {fileID: 1976136612}
   - {fileID: 638510218}
@@ -6004,6 +6006,7 @@ Transform:
   - {fileID: 113241411}
   - {fileID: 2092063898}
   - {fileID: 1856948934}
+>>>>>>> 5489db39b38d22087a7df0e4db15a5acd1fbbcce
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &741336940
