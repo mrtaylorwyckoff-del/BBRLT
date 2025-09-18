@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      big bean left full scale_0: 4759930995509659419
+      big bean left full scale_1: 4271103507082673489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
