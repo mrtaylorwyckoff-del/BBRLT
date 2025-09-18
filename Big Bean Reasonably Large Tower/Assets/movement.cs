@@ -10,16 +10,11 @@ public class Movement : MonoBehaviour
 
     private float _movement;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        rb2d.linearVelocityX = _movement;
+        // Set the velocity, scaling horizontal movement by speed
+        rb2d.linearVelocity = new Vector2(_movement * speed, rb2d.linearVelocity.y);
     }
 
     public void Move(InputAction.CallbackContext ctx)
@@ -29,6 +24,6 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        rb2d.linearVelocityY = jumpHeight;
+        rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpHeight);
     }
 }
