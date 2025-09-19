@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: cd4f48d52af678843ae0999c0ae212e7
+guid: e3269c8765e75b04d984de3d6b82a3d4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8058499085416160906
-    second: cobbled ground_0
+      213: -4858223175626949195
+    second: can o beans_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cobbled ground_0
+      name: can o beans_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 21
+        y: 10
+        width: 63
+        height: 81
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8e5a01f83a85df60800000000000000
-      internalID: 8058499085416160906
+      spriteID: 5bd7f2103cf149cb0800000000000000
+      internalID: -4858223175626949195
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      cobbled ground_0: 8058499085416160906
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

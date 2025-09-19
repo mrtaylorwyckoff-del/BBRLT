@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: cd4f48d52af678843ae0999c0ae212e7
+guid: 29a6614175dcd9b47bf6d968c6afe525
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8058499085416160906
-    second: cobbled ground_0
+      213: 5812597053540454496
+    second: propoganda_0
+  - first:
+      213: -1165816807762450871
+    second: propoganda_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cobbled ground_0
+      name: propoganda_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 100
-        height: 100
+        x: 23
+        y: 76
+        width: 168
+        height: 115
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +144,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8e5a01f83a85df60800000000000000
-      internalID: 8058499085416160906
+      spriteID: 060d2c6493e7aa050800000000000000
+      internalID: 5812597053540454496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: propoganda_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 157
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946a3244acf22dfe0800000000000000
+      internalID: -1165816807762450871
       vertices: []
       indices: 
       edges: []
@@ -161,7 +186,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cobbled ground_0: 8058499085416160906
+      propoganda_0: 5812597053540454496
+      propoganda_1: -1165816807762450871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
