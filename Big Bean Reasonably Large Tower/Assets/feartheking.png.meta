@@ -435,7 +435,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      feartheking_0: -8084175319469990783
+      feartheking_1: 1069924344590121313
+      feartheking_10: -4564790402580192541
+      feartheking_11: 8493455337714885542
+      feartheking_2: 3896869424457830860
+      feartheking_3: -1284643764538468838
+      feartheking_4: -1050829733385877551
+      feartheking_5: 7245506582992155176
+      feartheking_6: -7499997802623703669
+      feartheking_7: 7199777412805693860
+      feartheking_8: -6473300976824789450
+      feartheking_9: 955593155647811971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

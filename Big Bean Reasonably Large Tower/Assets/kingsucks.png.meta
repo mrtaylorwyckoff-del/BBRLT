@@ -360,7 +360,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kingsucks_0: -7632286032257156926
+      kingsucks_1: -7820653380363696542
+      kingsucks_2: -8389495068255540320
+      kingsucks_3: 7720526939483021366
+      kingsucks_4: 8509804513356078598
+      kingsucks_5: 7564255604959246947
+      kingsucks_6: -1794345610611216553
+      kingsucks_7: -3423334204815223184
+      kingsucks_8: -3966401833433139984
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
