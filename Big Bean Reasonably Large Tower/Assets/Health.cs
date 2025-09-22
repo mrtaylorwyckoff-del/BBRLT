@@ -1,24 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;   
 using UnityEngine;
+
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
-    private int currentHealth;
+    public int health;
+
     void Start()
     {
-        currentHealth = maxHealth;
+        health = maxHealth;
     }
-    public void TakeDamage(int damage)
+
+    public void TakeDamage(int amount)
     {
-        currentHealth -= damage;
-        Debug.Log("Player Health: " + currentHealth);
-        if (currentHealth <= 0)
+        health -= amount;  
+        if (health <= 0)
         {
-            Die();
+            Destroy(gameObject);
         }
-    }
-    private void Die()
-    {
-        Debug.Log("Player Died!");
-        // Add death logic here (e.g., restart level, show game over screen)
     }
 }
