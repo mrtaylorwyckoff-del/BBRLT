@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -5,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float speed;
     public float jumpHeight;
+
 
     public Rigidbody2D rb2d;
 
@@ -24,6 +26,9 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        rb2d.linearVelocity = new Vector2(rb2d.linearVelocity.x, jumpHeight);
+ 
+
+        }
     }
-}
+
+
