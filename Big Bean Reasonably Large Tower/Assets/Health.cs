@@ -20,14 +20,4 @@ public class PlayerHealth : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        Debug.Log("Collided with: " + collision.gameObject.name);
-        if (collision.gameObject.tag == "Player")
-        {
-            TakeDamage(1);
-            Debug.Log("Player took damage!");
-        }
-    }
 }
