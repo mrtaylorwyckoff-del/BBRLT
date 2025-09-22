@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9840381}
   - component: {fileID: 9840383}
+  - component: {fileID: 9840385}
   - component: {fileID: 9840384}
   m_Layer: 0
   m_Name: Triangle (76)
@@ -257,6 +258,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &9840385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9840380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &14093335
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14093336}
   - component: {fileID: 14093338}
+  - component: {fileID: 14093339}
   - component: {fileID: 14093337}
   m_Layer: 0
   m_Name: Circle (37)
@@ -381,6 +397,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &14093339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14093335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &20936966
 GameObject:
   m_ObjectHideFlags: 0
@@ -659,6 +689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 27420046}
   - component: {fileID: 27420045}
+  - component: {fileID: 27420050}
   - component: {fileID: 27420047}
   - component: {fileID: 27420048}
   - component: {fileID: 27420049}
@@ -881,6 +912,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &27420050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27420044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &33870719
 GameObject:
   m_ObjectHideFlags: 0
@@ -891,6 +936,7 @@ GameObject:
   m_Component:
   - component: {fileID: 33870720}
   - component: {fileID: 33870721}
+  - component: {fileID: 33870723}
   - component: {fileID: 33870722}
   m_Layer: 0
   m_Name: Circle (13)
@@ -1005,6 +1051,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.000015258789, y: 0}
   m_Radius: 0.5
+--- !u!114 &33870723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33870719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &43622361
 GameObject:
   m_ObjectHideFlags: 0
@@ -1283,6 +1343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55205574}
   - component: {fileID: 55205576}
+  - component: {fileID: 55205578}
   - component: {fileID: 55205577}
   m_Layer: 0
   m_Name: Triangle (15)
@@ -1411,6 +1472,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &55205578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55205573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &55601583
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1496,7 @@ GameObject:
   m_Component:
   - component: {fileID: 55601585}
   - component: {fileID: 55601584}
+  - component: {fileID: 55601589}
   - component: {fileID: 55601586}
   - component: {fileID: 55601587}
   - component: {fileID: 55601588}
@@ -1643,6 +1719,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &55601589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55601583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &59632842
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,6 +1743,7 @@ GameObject:
   m_Component:
   - component: {fileID: 59632843}
   - component: {fileID: 59632844}
+  - component: {fileID: 59632846}
   - component: {fileID: 59632845}
   m_Layer: 0
   m_Name: Circle (7)
@@ -1767,6 +1858,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &59632846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59632842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &68660928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,6 +2290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 75435693}
   - component: {fileID: 75435695}
+  - component: {fileID: 75435696}
   - component: {fileID: 75435694}
   m_Layer: 0
   m_Name: Circle (22)
@@ -2299,6 +2405,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &75435696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 75435692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &82070465
 GameObject:
   m_ObjectHideFlags: 0
@@ -2624,6 +2744,7 @@ GameObject:
   m_Component:
   - component: {fileID: 103209571}
   - component: {fileID: 103209573}
+  - component: {fileID: 103209574}
   - component: {fileID: 103209572}
   m_Layer: 0
   m_Name: Circle (30)
@@ -2738,6 +2859,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &103209574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103209570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &109590073
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,6 +2883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109590074}
   - component: {fileID: 109590076}
+  - component: {fileID: 109590077}
   - component: {fileID: 109590075}
   m_Layer: 0
   m_Name: Circle (39)
@@ -2862,6 +2998,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &109590077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109590073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &113241409
 GameObject:
   m_ObjectHideFlags: 0
@@ -2872,6 +3022,7 @@ GameObject:
   m_Component:
   - component: {fileID: 113241411}
   - component: {fileID: 113241410}
+  - component: {fileID: 113241415}
   - component: {fileID: 113241412}
   - component: {fileID: 113241413}
   - component: {fileID: 113241414}
@@ -3094,6 +3245,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &113241415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 113241409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &114913502
 GameObject:
   m_ObjectHideFlags: 0
@@ -3557,6 +3722,7 @@ GameObject:
   m_Component:
   - component: {fileID: 139878767}
   - component: {fileID: 139878769}
+  - component: {fileID: 139878771}
   - component: {fileID: 139878770}
   m_Layer: 0
   m_Name: Triangle (53)
@@ -3685,6 +3851,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &139878771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 139878766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &140821290
 GameObject:
   m_ObjectHideFlags: 0
@@ -3695,6 +3875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 140821291}
   - component: {fileID: 140821293}
+  - component: {fileID: 140821295}
   - component: {fileID: 140821294}
   m_Layer: 0
   m_Name: Triangle (83)
@@ -3823,6 +4004,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &140821295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140821290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &143776928
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,6 +4028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 143776929}
   - component: {fileID: 143776931}
+  - component: {fileID: 143776933}
   - component: {fileID: 143776932}
   m_Layer: 0
   m_Name: Triangle (84)
@@ -3961,6 +4157,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &143776933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143776928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &144214005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3971,6 +4181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 144214006}
   - component: {fileID: 144214008}
+  - component: {fileID: 144214010}
   - component: {fileID: 144214009}
   m_Layer: 0
   m_Name: Triangle (91)
@@ -4099,6 +4310,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &144214010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144214005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &147768102
 GameObject:
   m_ObjectHideFlags: 0
@@ -4381,6 +4606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 156743647}
   - component: {fileID: 156743649}
+  - component: {fileID: 156743651}
   - component: {fileID: 156743650}
   m_Layer: 0
   m_Name: Triangle (32)
@@ -4509,6 +4735,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &156743651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 156743646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &160543811
 GameObject:
   m_ObjectHideFlags: 0
@@ -4519,6 +4759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 160543812}
   - component: {fileID: 160543814}
+  - component: {fileID: 160543816}
   - component: {fileID: 160543815}
   m_Layer: 0
   m_Name: Triangle (90)
@@ -4647,6 +4888,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &160543816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160543811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &169823704
 GameObject:
   m_ObjectHideFlags: 0
@@ -5700,6 +5955,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181405604}
   - component: {fileID: 181405606}
+  - component: {fileID: 181405607}
   - component: {fileID: 181405605}
   m_Layer: 0
   m_Name: Circle (18)
@@ -5814,6 +6070,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &181405607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181405603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &187777920
 GameObject:
   m_ObjectHideFlags: 0
@@ -5824,6 +6094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187777921}
   - component: {fileID: 187777923}
+  - component: {fileID: 187777925}
   - component: {fileID: 187777924}
   m_Layer: 0
   m_Name: Triangle (24)
@@ -5952,6 +6223,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &187777925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187777920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &190651889
 GameObject:
   m_ObjectHideFlags: 0
@@ -5962,6 +6247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 190651890}
   - component: {fileID: 190651892}
+  - component: {fileID: 190651893}
   - component: {fileID: 190651891}
   m_Layer: 0
   m_Name: Circle (29)
@@ -6076,6 +6362,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &190651893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190651889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &215144359
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,6 +6386,7 @@ GameObject:
   m_Component:
   - component: {fileID: 215144360}
   - component: {fileID: 215144362}
+  - component: {fileID: 215144364}
   - component: {fileID: 215144363}
   m_Layer: 0
   m_Name: Triangle (54)
@@ -6214,6 +6515,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &215144364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215144359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &217914252
 GameObject:
   m_ObjectHideFlags: 0
@@ -6224,6 +6539,7 @@ GameObject:
   m_Component:
   - component: {fileID: 217914253}
   - component: {fileID: 217914255}
+  - component: {fileID: 217914257}
   - component: {fileID: 217914256}
   m_Layer: 0
   m_Name: Triangle (39)
@@ -6352,6 +6668,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &217914257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217914252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &218183943
 GameObject:
   m_ObjectHideFlags: 0
@@ -6362,6 +6692,7 @@ GameObject:
   m_Component:
   - component: {fileID: 218183944}
   - component: {fileID: 218183946}
+  - component: {fileID: 218183948}
   - component: {fileID: 218183947}
   m_Layer: 0
   m_Name: Triangle (16)
@@ -6490,6 +6821,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &218183948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218183943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &219841839
 GameObject:
   m_ObjectHideFlags: 0
@@ -6500,6 +6845,7 @@ GameObject:
   m_Component:
   - component: {fileID: 219841840}
   - component: {fileID: 219841842}
+  - component: {fileID: 219841844}
   - component: {fileID: 219841843}
   m_Layer: 0
   m_Name: Triangle (72)
@@ -6628,6 +6974,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &219841844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219841839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &231252583
 GameObject:
   m_ObjectHideFlags: 0
@@ -6638,6 +6998,7 @@ GameObject:
   m_Component:
   - component: {fileID: 231252584}
   - component: {fileID: 231252586}
+  - component: {fileID: 231252588}
   - component: {fileID: 231252587}
   m_Layer: 0
   m_Name: Triangle (70)
@@ -6766,6 +7127,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &231252588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231252583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &256543015
 GameObject:
   m_ObjectHideFlags: 0
@@ -6910,6 +7285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258149646}
   - component: {fileID: 258149648}
+  - component: {fileID: 258149650}
   - component: {fileID: 258149649}
   m_Layer: 0
   m_Name: Triangle (82)
@@ -7038,6 +7414,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &258149650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258149645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &258178003
 GameObject:
   m_ObjectHideFlags: 0
@@ -7048,6 +7438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258178004}
   - component: {fileID: 258178006}
+  - component: {fileID: 258178008}
   - component: {fileID: 258178007}
   m_Layer: 0
   m_Name: Triangle (33)
@@ -7176,6 +7567,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &258178008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258178003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &259375554
 GameObject:
   m_ObjectHideFlags: 0
@@ -7367,6 +7772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 261223189}
   - component: {fileID: 261223191}
+  - component: {fileID: 261223193}
   - component: {fileID: 261223192}
   m_Layer: 0
   m_Name: Triangle (93)
@@ -7495,6 +7901,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &261223193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 261223188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &271150290
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,6 +7925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271150291}
   - component: {fileID: 271150292}
+  - component: {fileID: 271150294}
   - component: {fileID: 271150293}
   m_Layer: 0
   m_Name: Circle (3)
@@ -7619,6 +8040,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &271150294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271150290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &279572829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7763,6 +8198,7 @@ GameObject:
   m_Component:
   - component: {fileID: 281645990}
   - component: {fileID: 281645992}
+  - component: {fileID: 281645994}
   - component: {fileID: 281645993}
   m_Layer: 0
   m_Name: Triangle (19)
@@ -7891,6 +8327,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &281645994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281645989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &286539237
 GameObject:
   m_ObjectHideFlags: 0
@@ -7901,6 +8351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 286539238}
   - component: {fileID: 286539240}
+  - component: {fileID: 286539242}
   - component: {fileID: 286539241}
   m_Layer: 0
   m_Name: Triangle (38)
@@ -8029,6 +8480,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &286539242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286539237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &294143531
 GameObject:
   m_ObjectHideFlags: 0
@@ -8039,6 +8504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294143532}
   - component: {fileID: 294143534}
+  - component: {fileID: 294143536}
   - component: {fileID: 294143535}
   m_Layer: 0
   m_Name: Triangle (26)
@@ -8167,6 +8633,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &294143536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294143531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &295372861
 GameObject:
   m_ObjectHideFlags: 0
@@ -8177,6 +8657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 295372862}
   - component: {fileID: 295372864}
+  - component: {fileID: 295372865}
   - component: {fileID: 295372863}
   m_Layer: 0
   m_Name: Circle (23)
@@ -8291,6 +8772,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &295372865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295372861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &302316274
 GameObject:
   m_ObjectHideFlags: 0
@@ -8663,6 +9158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 312729645}
   - component: {fileID: 312729647}
+  - component: {fileID: 312729649}
   - component: {fileID: 312729648}
   m_Layer: 0
   m_Name: Triangle (50)
@@ -8791,6 +9287,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &312729649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312729644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &338379645
 GameObject:
   m_ObjectHideFlags: 0
@@ -8982,6 +9492,7 @@ GameObject:
   m_Component:
   - component: {fileID: 342325312}
   - component: {fileID: 342325314}
+  - component: {fileID: 342325316}
   - component: {fileID: 342325315}
   m_Layer: 0
   m_Name: Triangle (43)
@@ -9110,6 +9621,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &342325316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342325311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &345998000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9120,6 +9645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 345998001}
   - component: {fileID: 345998002}
+  - component: {fileID: 345998004}
   - component: {fileID: 345998003}
   m_Layer: 0
   m_Name: Circle (6)
@@ -9234,6 +9760,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &345998004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345998000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &356120464
 GameObject:
   m_ObjectHideFlags: 0
@@ -9244,6 +9784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 356120465}
   - component: {fileID: 356120467}
+  - component: {fileID: 356120469}
   - component: {fileID: 356120468}
   m_Layer: 0
   m_Name: Triangle (65)
@@ -9372,6 +9913,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &356120469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356120464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &356225232
 GameObject:
   m_ObjectHideFlags: 0
@@ -9835,6 +10390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373104770}
   - component: {fileID: 373104772}
+  - component: {fileID: 373104774}
   - component: {fileID: 373104773}
   m_Layer: 0
   m_Name: Triangle (49)
@@ -9963,6 +10519,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &373104774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373104769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &373118356
 GameObject:
   m_ObjectHideFlags: 0
@@ -9973,6 +10543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373118357}
   - component: {fileID: 373118358}
+  - component: {fileID: 373118360}
   - component: {fileID: 373118359}
   m_Layer: 0
   m_Name: Triangle (8)
@@ -10101,6 +10672,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &373118360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373118356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &377039445
 GameObject:
   m_ObjectHideFlags: 0
@@ -10111,6 +10696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 377039446}
   - component: {fileID: 377039447}
+  - component: {fileID: 377039449}
   - component: {fileID: 377039448}
   m_Layer: 0
   m_Name: Triangle (11)
@@ -10239,6 +10825,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &377039449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377039445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &379704147
 GameObject:
   m_ObjectHideFlags: 0
@@ -10249,6 +10849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 379704148}
   - component: {fileID: 379704150}
+  - component: {fileID: 379704152}
   - component: {fileID: 379704151}
   m_Layer: 0
   m_Name: Triangle (74)
@@ -10377,6 +10978,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &379704152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379704147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &395402416
 GameObject:
   m_ObjectHideFlags: 0
@@ -10387,6 +11002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 395402417}
   - component: {fileID: 395402419}
+  - component: {fileID: 395402421}
   - component: {fileID: 395402420}
   m_Layer: 0
   m_Name: Triangle (48)
@@ -10515,6 +11131,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &395402421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395402416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &406695052
 GameObject:
   m_ObjectHideFlags: 0
@@ -10525,6 +11155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 406695053}
   - component: {fileID: 406695055}
+  - component: {fileID: 406695057}
   - component: {fileID: 406695056}
   m_Layer: 0
   m_Name: Triangle (67)
@@ -10653,6 +11284,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &406695057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406695052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &413346551
 GameObject:
   m_ObjectHideFlags: 0
@@ -10663,6 +11308,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413346552}
   - component: {fileID: 413346554}
+  - component: {fileID: 413346556}
   - component: {fileID: 413346555}
   m_Layer: 0
   m_Name: Triangle (92)
@@ -10791,6 +11437,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &413346556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413346551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &417143944
 GameObject:
   m_ObjectHideFlags: 0
@@ -10801,6 +11461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 417143945}
   - component: {fileID: 417143947}
+  - component: {fileID: 417143949}
   - component: {fileID: 417143948}
   m_Layer: 0
   m_Name: Triangle (30)
@@ -10929,6 +11590,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &417143949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417143944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &434241006
 GameObject:
   m_ObjectHideFlags: 0
@@ -10939,6 +11614,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434241007}
   - component: {fileID: 434241009}
+  - component: {fileID: 434241011}
   - component: {fileID: 434241010}
   m_Layer: 0
   m_Name: Triangle (77)
@@ -11067,6 +11743,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &434241011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434241006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &434356276
 GameObject:
   m_ObjectHideFlags: 0
@@ -11258,6 +11948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 436045209}
   - component: {fileID: 436045211}
+  - component: {fileID: 436045212}
   - component: {fileID: 436045210}
   m_Layer: 0
   m_Name: Circle (27)
@@ -11372,6 +12063,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &436045212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436045208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &438110842
 GameObject:
   m_ObjectHideFlags: 0
@@ -11563,6 +12268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 458599042}
   - component: {fileID: 458599044}
+  - component: {fileID: 458599046}
   - component: {fileID: 458599045}
   m_Layer: 0
   m_Name: Triangle (35)
@@ -11691,6 +12397,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &458599046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458599041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &462177444
 GameObject:
   m_ObjectHideFlags: 0
@@ -12016,6 +12736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473426970}
   - component: {fileID: 473426972}
+  - component: {fileID: 473426974}
   - component: {fileID: 473426973}
   m_Layer: 0
   m_Name: Triangle (73)
@@ -12144,6 +12865,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &473426974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473426969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &473632107
 GameObject:
   m_ObjectHideFlags: 0
@@ -12154,6 +12889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 473632108}
   - component: {fileID: 473632110}
+  - component: {fileID: 473632112}
   - component: {fileID: 473632111}
   m_Layer: 0
   m_Name: Triangle (36)
@@ -12282,6 +13018,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &473632112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473632107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &485724661
 GameObject:
   m_ObjectHideFlags: 0
@@ -12292,6 +13042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 485724662}
   - component: {fileID: 485724664}
+  - component: {fileID: 485724666}
   - component: {fileID: 485724665}
   m_Layer: 0
   m_Name: Triangle (85)
@@ -12420,6 +13171,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &485724666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485724661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &490289290
 GameObject:
   m_ObjectHideFlags: 0
@@ -12651,6 +13416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516786262}
   - component: {fileID: 516786264}
+  - component: {fileID: 516786265}
   - component: {fileID: 516786263}
   m_Layer: 0
   m_Name: Circle (35)
@@ -12765,6 +13531,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &516786265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516786261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -13006,6 +13786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519901270}
   - component: {fileID: 519901271}
+  - component: {fileID: 519901273}
   - component: {fileID: 519901272}
   m_Layer: 0
   m_Name: Circle (9)
@@ -13120,6 +13901,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: 0}
   m_Radius: 0.5
+--- !u!114 &519901273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519901269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &520061490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13130,6 +13925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520061491}
   - component: {fileID: 520061493}
+  - component: {fileID: 520061495}
   - component: {fileID: 520061494}
   m_Layer: 0
   m_Name: Triangle (13)
@@ -13258,6 +14054,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &520061495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520061490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &526422599
 GameObject:
   m_ObjectHideFlags: 0
@@ -13455,6 +14265,7 @@ GameObject:
   - component: {fileID: 527605751}
   - component: {fileID: 527605753}
   - component: {fileID: 527605755}
+  - component: {fileID: 527605760}
   - component: {fileID: 527605754}
   - component: {fileID: 527605756}
   - component: {fileID: 527605757}
@@ -13462,7 +14273,7 @@ GameObject:
   - component: {fileID: 527605758}
   m_Layer: 0
   m_Name: king can_0
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13840,6 +14651,20 @@ Animation:
   m_AnimatePhysics: 0
   m_UpdateMode: 0
   m_CullingType: 0
+--- !u!114 &527605760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527605750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d2f2dc94036054b86a43a9af9775a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 3
+  health: 0
 --- !u!1 &567270432
 GameObject:
   m_ObjectHideFlags: 0
@@ -14071,6 +14896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 587954765}
   - component: {fileID: 587954766}
+  - component: {fileID: 587954768}
   - component: {fileID: 587954767}
   m_Layer: 0
   m_Name: Circle (8)
@@ -14185,6 +15011,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.000015258789, y: 0.00000071525574}
   m_Radius: 0.5
+--- !u!114 &587954768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587954764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &599412211
 GameObject:
   m_ObjectHideFlags: 0
@@ -14812,6 +15652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620270609}
   - component: {fileID: 620270611}
+  - component: {fileID: 620270613}
   - component: {fileID: 620270612}
   m_Layer: 0
   m_Name: Triangle (45)
@@ -14940,6 +15781,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &620270613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620270608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &622302753
 GameObject:
   m_ObjectHideFlags: 0
@@ -15352,6 +16207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638510218}
   - component: {fileID: 638510217}
+  - component: {fileID: 638510220}
   - component: {fileID: 638510219}
   m_Layer: 0
   m_Name: Triangle (7)
@@ -15480,6 +16336,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &638510220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638510216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &638951824
 GameObject:
   m_ObjectHideFlags: 0
@@ -15490,6 +16360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 638951825}
   - component: {fileID: 638951827}
+  - component: {fileID: 638951828}
   - component: {fileID: 638951826}
   m_Layer: 0
   m_Name: Circle (16)
@@ -15604,6 +16475,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &638951828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638951824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &644033766
 GameObject:
   m_ObjectHideFlags: 0
@@ -15929,6 +16814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 669403803}
   - component: {fileID: 669403805}
+  - component: {fileID: 669403807}
   - component: {fileID: 669403806}
   m_Layer: 0
   m_Name: Triangle (68)
@@ -16057,6 +16943,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &669403807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 669403802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &676267532
 GameObject:
   m_ObjectHideFlags: 0
@@ -16067,6 +16967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 676267533}
   - component: {fileID: 676267535}
+  - component: {fileID: 676267536}
   - component: {fileID: 676267534}
   m_Layer: 0
   m_Name: Circle (25)
@@ -16181,6 +17082,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &676267536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 676267532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &683336331
 GameObject:
   m_ObjectHideFlags: 0
@@ -16449,6 +17364,7 @@ GameObject:
   m_Component:
   - component: {fileID: 720532677}
   - component: {fileID: 720532679}
+  - component: {fileID: 720532681}
   - component: {fileID: 720532680}
   m_Layer: 0
   m_Name: Triangle (40)
@@ -16577,6 +17493,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &720532681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720532676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &725281713
 GameObject:
   m_ObjectHideFlags: 0
@@ -17028,6 +17958,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738238731}
   - component: {fileID: 738238733}
+  - component: {fileID: 738238735}
   - component: {fileID: 738238734}
   m_Layer: 0
   m_Name: Triangle (31)
@@ -17156,6 +18087,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &738238735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738238730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &741336940
 GameObject:
   m_ObjectHideFlags: 0
@@ -17347,6 +18292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 754075315}
   - component: {fileID: 754075317}
+  - component: {fileID: 754075318}
   - component: {fileID: 754075316}
   m_Layer: 0
   m_Name: Circle (21)
@@ -17461,6 +18407,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &754075318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754075314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &758228478
 GameObject:
   m_ObjectHideFlags: 0
@@ -18363,6 +19323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807905197}
   - component: {fileID: 807905199}
+  - component: {fileID: 807905201}
   - component: {fileID: 807905200}
   m_Layer: 0
   m_Name: Triangle (12)
@@ -18491,6 +19452,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &807905201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 807905196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &817541465
 GameObject:
   m_ObjectHideFlags: 0
@@ -18501,6 +19476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 817541466}
   - component: {fileID: 817541468}
+  - component: {fileID: 817541470}
   - component: {fileID: 817541469}
   m_Layer: 0
   m_Name: Triangle (34)
@@ -18629,6 +19605,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &817541470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 817541465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &819151990
 GameObject:
   m_ObjectHideFlags: 0
@@ -19176,6 +20166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873647621}
   - component: {fileID: 873647622}
+  - component: {fileID: 873647624}
   - component: {fileID: 873647623}
   m_Layer: 0
   m_Name: Circle (11)
@@ -19290,6 +20281,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: 0}
   m_Radius: 0.5
+--- !u!114 &873647624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873647620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &877672936
 GameObject:
   m_ObjectHideFlags: 0
@@ -19387,6 +20392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 878480054}
   - component: {fileID: 878480056}
+  - component: {fileID: 878480058}
   - component: {fileID: 878480057}
   m_Layer: 0
   m_Name: Triangle (37)
@@ -19515,6 +20521,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &878480058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 878480053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &879342433
 GameObject:
   m_ObjectHideFlags: 0
@@ -19793,6 +20813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 891560153}
   - component: {fileID: 891560155}
+  - component: {fileID: 891560157}
   - component: {fileID: 891560156}
   m_Layer: 0
   m_Name: Triangle (41)
@@ -19921,6 +20942,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &891560157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891560152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &904267232
 GameObject:
   m_ObjectHideFlags: 0
@@ -20116,6 +21151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918111735}
   - component: {fileID: 918111737}
+  - component: {fileID: 918111739}
   - component: {fileID: 918111738}
   m_Layer: 0
   m_Name: Triangle (21)
@@ -20244,6 +21280,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &918111739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918111734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &923997759
 GameObject:
   m_ObjectHideFlags: 0
@@ -20435,6 +21485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 930809301}
   - component: {fileID: 930809303}
+  - component: {fileID: 930809305}
   - component: {fileID: 930809304}
   m_Layer: 0
   m_Name: Triangle (57)
@@ -20563,6 +21614,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &930809305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 930809300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &931941633
 GameObject:
   m_ObjectHideFlags: 0
@@ -20912,6 +21977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942254294}
   - component: {fileID: 942254296}
+  - component: {fileID: 942254298}
   - component: {fileID: 942254297}
   m_Layer: 0
   m_Name: Triangle (18)
@@ -21040,6 +22106,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &942254298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942254293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &947710920
 GameObject:
   m_ObjectHideFlags: 0
@@ -21050,6 +22130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 947710921}
   - component: {fileID: 947710923}
+  - component: {fileID: 947710925}
   - component: {fileID: 947710924}
   m_Layer: 0
   m_Name: Triangle (61)
@@ -21178,6 +22259,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &947710925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947710920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &948543719
 GameObject:
   m_ObjectHideFlags: 0
@@ -21188,6 +22283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 948543720}
   - component: {fileID: 948543722}
+  - component: {fileID: 948543724}
   - component: {fileID: 948543723}
   m_Layer: 0
   m_Name: Triangle (59)
@@ -21316,6 +22412,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &948543724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948543719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &952927706
 GameObject:
   m_ObjectHideFlags: 0
@@ -21326,6 +22436,7 @@ GameObject:
   m_Component:
   - component: {fileID: 952927707}
   - component: {fileID: 952927709}
+  - component: {fileID: 952927710}
   - component: {fileID: 952927708}
   m_Layer: 0
   m_Name: Circle (26)
@@ -21440,6 +22551,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &952927710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952927706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &965819214
 GameObject:
   m_ObjectHideFlags: 0
@@ -21450,6 +22575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 965819215}
   - component: {fileID: 965819217}
+  - component: {fileID: 965819219}
   - component: {fileID: 965819218}
   m_Layer: 0
   m_Name: Triangle (46)
@@ -21578,6 +22704,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &965819219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965819214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &966543364
 GameObject:
   m_ObjectHideFlags: 0
@@ -21588,6 +22728,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966543365}
   - component: {fileID: 966543367}
+  - component: {fileID: 966543369}
   - component: {fileID: 966543368}
   m_Layer: 0
   m_Name: Triangle (27)
@@ -21716,6 +22857,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &966543369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966543364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &972808760
 GameObject:
   m_ObjectHideFlags: 0
@@ -22498,6 +23653,7 @@ GameObject:
   m_Component:
   - component: {fileID: 991437619}
   - component: {fileID: 991437621}
+  - component: {fileID: 991437622}
   - component: {fileID: 991437620}
   m_Layer: 0
   m_Name: Circle (33)
@@ -22612,6 +23768,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &991437622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 991437618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &998638268
 GameObject:
   m_ObjectHideFlags: 0
@@ -22722,6 +23892,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1003080887}
   - component: {fileID: 1003080889}
+  - component: {fileID: 1003080891}
   - component: {fileID: 1003080890}
   m_Layer: 0
   m_Name: Triangle (71)
@@ -22850,6 +24021,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1003080891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003080886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1006514529
 GameObject:
   m_ObjectHideFlags: 0
@@ -23041,6 +24226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1006569020}
   - component: {fileID: 1006569022}
+  - component: {fileID: 1006569024}
   - component: {fileID: 1006569023}
   m_Layer: 0
   m_Name: Triangle (78)
@@ -23169,6 +24355,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1006569024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006569019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1019054888
 GameObject:
   m_ObjectHideFlags: 0
@@ -23179,6 +24379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1019054889}
   - component: {fileID: 1019054890}
+  - component: {fileID: 1019054892}
   - component: {fileID: 1019054891}
   m_Layer: 0
   m_Name: Circle (2)
@@ -23293,6 +24494,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
   m_Radius: 0.5
+--- !u!114 &1019054892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019054888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1024046179
 GameObject:
   m_ObjectHideFlags: 0
@@ -23595,6 +24810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1029502180}
   - component: {fileID: 1029502182}
+  - component: {fileID: 1029502184}
   - component: {fileID: 1029502183}
   m_Layer: 0
   m_Name: Triangle (47)
@@ -23723,6 +24939,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1029502184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029502179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1039896813
 GameObject:
   m_ObjectHideFlags: 0
@@ -23867,6 +25097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1060596849}
   - component: {fileID: 1060596851}
+  - component: {fileID: 1060596853}
   - component: {fileID: 1060596852}
   m_Layer: 0
   m_Name: Triangle (94)
@@ -23995,6 +25226,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1060596853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060596848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1061101138
 GameObject:
   m_ObjectHideFlags: 0
@@ -24005,6 +25250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061101139}
   - component: {fileID: 1061101141}
+  - component: {fileID: 1061101143}
   - component: {fileID: 1061101142}
   m_Layer: 0
   m_Name: Triangle (55)
@@ -24133,6 +25379,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1061101143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061101138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1065299545
 GameObject:
   m_ObjectHideFlags: 0
@@ -24458,6 +25718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1093933426}
   - component: {fileID: 1093933428}
+  - component: {fileID: 1093933429}
   - component: {fileID: 1093933427}
   m_Layer: 0
   m_Name: Circle (19)
@@ -24572,6 +25833,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1093933429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093933425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1124631611
 GameObject:
   m_ObjectHideFlags: 0
@@ -24582,6 +25857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1124631612}
   - component: {fileID: 1124631614}
+  - component: {fileID: 1124631616}
   - component: {fileID: 1124631615}
   m_Layer: 0
   m_Name: Triangle (89)
@@ -24710,6 +25986,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1124631616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1124631611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1131268386
 GameObject:
   m_ObjectHideFlags: 0
@@ -263547,6 +264837,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1134247531}
   - component: {fileID: 1134247533}
+  - component: {fileID: 1134247535}
   - component: {fileID: 1134247534}
   m_Layer: 0
   m_Name: Triangle (66)
@@ -263675,6 +264966,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1134247535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134247530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1144531030
 GameObject:
   m_ObjectHideFlags: 0
@@ -263870,6 +265175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1148182696}
   - component: {fileID: 1148182698}
+  - component: {fileID: 1148182700}
   - component: {fileID: 1148182699}
   m_Layer: 0
   m_Name: Triangle (64)
@@ -263998,6 +265304,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1148182700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148182695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1162972239
 GameObject:
   m_ObjectHideFlags: 0
@@ -264142,6 +265462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1172943013}
   - component: {fileID: 1172943014}
+  - component: {fileID: 1172943016}
   - component: {fileID: 1172943015}
   m_Layer: 0
   m_Name: Circle (12)
@@ -264256,6 +265577,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: 0.0000009536743}
   m_Radius: 0.5
+--- !u!114 &1172943016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172943012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1174023492
 GameObject:
   m_ObjectHideFlags: 0
@@ -264719,6 +266054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1208317716}
   - component: {fileID: 1208317718}
+  - component: {fileID: 1208317720}
   - component: {fileID: 1208317719}
   m_Layer: 0
   m_Name: Triangle (69)
@@ -264847,6 +266183,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1208317720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208317715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1214305293
 GameObject:
   m_ObjectHideFlags: 0
@@ -264857,6 +266207,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1214305294}
   - component: {fileID: 1214305296}
+  - component: {fileID: 1214305298}
   - component: {fileID: 1214305297}
   m_Layer: 0
   m_Name: Triangle (28)
@@ -264985,6 +266336,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1214305298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214305293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1227234020
 GameObject:
   m_ObjectHideFlags: 0
@@ -265129,6 +266494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1268248792}
   - component: {fileID: 1268248793}
+  - component: {fileID: 1268248795}
   - component: {fileID: 1268248794}
   m_Layer: 0
   m_Name: Triangle (9)
@@ -265257,6 +266623,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1268248795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268248791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1286576536
 GameObject:
   m_ObjectHideFlags: 0
@@ -265637,6 +267017,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297119624}
   - component: {fileID: 1297119626}
+  - component: {fileID: 1297119628}
   - component: {fileID: 1297119627}
   m_Layer: 0
   m_Name: Triangle (60)
@@ -265765,6 +267146,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1297119628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297119623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1317042328
 GameObject:
   m_ObjectHideFlags: 0
@@ -266094,6 +267489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1336197370}
   - component: {fileID: 1336197372}
+  - component: {fileID: 1336197374}
   - component: {fileID: 1336197373}
   m_Layer: 0
   m_Name: Triangle (79)
@@ -266222,6 +267618,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1336197374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336197369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1342563363
 GameObject:
   m_ObjectHideFlags: 0
@@ -266232,6 +267642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1342563364}
   - component: {fileID: 1342563366}
+  - component: {fileID: 1342563368}
   - component: {fileID: 1342563367}
   m_Layer: 0
   m_Name: Triangle (51)
@@ -266360,6 +267771,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1342563368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342563363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1346696973
 GameObject:
   m_ObjectHideFlags: 0
@@ -267504,6 +268929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1389113203}
   - component: {fileID: 1389113205}
+  - component: {fileID: 1389113206}
   - component: {fileID: 1389113204}
   m_Layer: 0
   m_Name: Circle (36)
@@ -267618,6 +269044,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1389113206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389113202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1391931276
 GameObject:
   m_ObjectHideFlags: 0
@@ -267990,6 +269430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1408059154}
   - component: {fileID: 1408059156}
+  - component: {fileID: 1408059158}
   - component: {fileID: 1408059157}
   m_Layer: 0
   m_Name: Triangle (14)
@@ -268118,6 +269559,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1408059158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408059153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1410215611
 GameObject:
   m_ObjectHideFlags: 0
@@ -268490,6 +269945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1426237889}
   - component: {fileID: 1426237890}
+  - component: {fileID: 1426237892}
   - component: {fileID: 1426237891}
   m_Layer: 0
   m_Name: Circle
@@ -268604,6 +270060,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1426237892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426237888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1432955608
 GameObject:
   m_ObjectHideFlags: 0
@@ -269067,6 +270537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1463395962}
   - component: {fileID: 1463395964}
+  - component: {fileID: 1463395966}
   - component: {fileID: 1463395965}
   m_Layer: 0
   m_Name: Triangle (17)
@@ -269195,6 +270666,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1463395966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463395961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1479700055
 GameObject:
   m_ObjectHideFlags: 0
@@ -269560,6 +271045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1530822951}
   - component: {fileID: 1530822953}
+  - component: {fileID: 1530822955}
   - component: {fileID: 1530822954}
   m_Layer: 0
   m_Name: Triangle (44)
@@ -269688,6 +271174,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1530822955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530822950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1538577951
 GameObject:
   m_ObjectHideFlags: 0
@@ -270064,6 +271564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1551457939}
   - component: {fileID: 1551457940}
+  - component: {fileID: 1551457942}
   - component: {fileID: 1551457941}
   m_Layer: 0
   m_Name: Circle (15)
@@ -270178,6 +271679,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
   m_Radius: 0.49999997
+--- !u!114 &1551457942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551457938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1558862188
 GameObject:
   m_ObjectHideFlags: 0
@@ -270188,6 +271703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1558862189}
   - component: {fileID: 1558862191}
+  - component: {fileID: 1558862192}
   - component: {fileID: 1558862190}
   m_Layer: 0
   m_Name: Circle (24)
@@ -270302,6 +271818,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1558862192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558862188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1559256360
 GameObject:
   m_ObjectHideFlags: 0
@@ -270312,6 +271842,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1559256361}
   - component: {fileID: 1559256362}
+  - component: {fileID: 1559256364}
   - component: {fileID: 1559256363}
   m_Layer: 0
   m_Name: Circle (4)
@@ -270426,6 +271957,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.000015258789, y: 0}
   m_Radius: 0.5
+--- !u!114 &1559256364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559256360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1573933334
 GameObject:
   m_ObjectHideFlags: 0
@@ -270704,6 +272249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1587408241}
   - component: {fileID: 1587408243}
+  - component: {fileID: 1587408245}
   - component: {fileID: 1587408244}
   m_Layer: 0
   m_Name: Triangle (75)
@@ -270832,6 +272378,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1587408245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587408240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1587973039
 GameObject:
   m_ObjectHideFlags: 0
@@ -270976,6 +272536,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590162637}
   - component: {fileID: 1590162639}
+  - component: {fileID: 1590162641}
   - component: {fileID: 1590162640}
   m_Layer: 0
   m_Name: Triangle (22)
@@ -271104,6 +272665,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1590162641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590162636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1614015620
 GameObject:
   m_ObjectHideFlags: 0
@@ -271114,6 +272689,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1614015621}
   - component: {fileID: 1614015623}
+  - component: {fileID: 1614015624}
   - component: {fileID: 1614015622}
   m_Layer: 0
   m_Name: Circle (40)
@@ -271228,6 +272804,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1614015624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614015620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1615012503
 GameObject:
   m_ObjectHideFlags: 0
@@ -271644,6 +273234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1631538657}
   - component: {fileID: 1631538659}
+  - component: {fileID: 1631538660}
   - component: {fileID: 1631538658}
   m_Layer: 0
   m_Name: Circle (20)
@@ -271758,6 +273349,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1631538660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631538656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1637234984
 GameObject:
   m_ObjectHideFlags: 0
@@ -271768,6 +273373,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1637234985}
   - component: {fileID: 1637234987}
+  - component: {fileID: 1637234989}
   - component: {fileID: 1637234988}
   m_Layer: 0
   m_Name: Triangle (63)
@@ -271896,6 +273502,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1637234989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637234984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1639661757
 GameObject:
   m_ObjectHideFlags: 0
@@ -272174,6 +273794,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1660588867}
   - component: {fileID: 1660588868}
+  - component: {fileID: 1660588870}
   - component: {fileID: 1660588869}
   m_Layer: 0
   m_Name: Circle (10)
@@ -272288,6 +273909,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.0000076293945, y: -0.00000011920929}
   m_Radius: 0.5
+--- !u!114 &1660588870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660588866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1661297955
 GameObject:
   m_ObjectHideFlags: 0
@@ -272613,6 +274248,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1669737322}
   - component: {fileID: 1669737324}
+  - component: {fileID: 1669737325}
   - component: {fileID: 1669737323}
   m_Layer: 0
   m_Name: Circle (32)
@@ -272727,6 +274363,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1669737325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1669737321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1671329684
 GameObject:
   m_ObjectHideFlags: 0
@@ -272737,6 +274387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1671329685}
   - component: {fileID: 1671329687}
+  - component: {fileID: 1671329689}
   - component: {fileID: 1671329688}
   m_Layer: 0
   m_Name: Triangle (86)
@@ -272865,6 +274516,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1671329689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1671329684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1680990451
 GameObject:
   m_ObjectHideFlags: 0
@@ -273143,6 +274808,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700003434}
   - component: {fileID: 1700003436}
+  - component: {fileID: 1700003438}
   - component: {fileID: 1700003437}
   m_Layer: 0
   m_Name: Triangle (25)
@@ -273271,6 +274937,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1700003438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700003433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1700880579
 GameObject:
   m_ObjectHideFlags: 0
@@ -273281,6 +274961,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1700880580}
   - component: {fileID: 1700880582}
+  - component: {fileID: 1700880583}
   - component: {fileID: 1700880581}
   m_Layer: 0
   m_Name: Circle (17)
@@ -273395,6 +275076,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1700880583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700880579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1705170184
 GameObject:
   m_ObjectHideFlags: 0
@@ -274068,6 +275763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1753645480}
   - component: {fileID: 1753645482}
+  - component: {fileID: 1753645484}
   - component: {fileID: 1753645483}
   m_Layer: 0
   m_Name: Triangle (58)
@@ -274196,6 +275892,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1753645484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753645479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1777131703
 GameObject:
   m_ObjectHideFlags: 0
@@ -274206,6 +275916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1777131704}
   - component: {fileID: 1777131706}
+  - component: {fileID: 1777131708}
   - component: {fileID: 1777131707}
   m_Layer: 0
   m_Name: Triangle (88)
@@ -274334,6 +276045,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1777131708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777131703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1787091177
 GameObject:
   m_ObjectHideFlags: 0
@@ -274478,6 +276203,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791174281}
   - component: {fileID: 1791174283}
+  - component: {fileID: 1791174284}
   - component: {fileID: 1791174282}
   m_Layer: 0
   m_Name: Circle (31)
@@ -274592,6 +276318,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1791174284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791174280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1797664968
 GameObject:
   m_ObjectHideFlags: 0
@@ -274602,6 +276342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1797664969}
   - component: {fileID: 1797664971}
+  - component: {fileID: 1797664973}
   - component: {fileID: 1797664972}
   m_Layer: 0
   m_Name: Triangle (52)
@@ -274730,6 +276471,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1797664973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797664968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1803558164
 GameObject:
   m_ObjectHideFlags: 0
@@ -274740,6 +276495,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1803558165}
   - component: {fileID: 1803558166}
+  - component: {fileID: 1803558168}
   - component: {fileID: 1803558167}
   m_Layer: 0
   m_Name: Triangle (10)
@@ -274868,6 +276624,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1803558168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803558164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1817496352
 GameObject:
   m_ObjectHideFlags: 0
@@ -275964,6 +277734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843098340}
   - component: {fileID: 1843098342}
+  - component: {fileID: 1843098344}
   - component: {fileID: 1843098343}
   m_Layer: 0
   m_Name: Triangle (81)
@@ -276092,6 +277863,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1843098344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843098339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1844980391
 GameObject:
   m_ObjectHideFlags: 0
@@ -276102,6 +277887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1844980392}
   - component: {fileID: 1844980394}
+  - component: {fileID: 1844980396}
   - component: {fileID: 1844980395}
   m_Layer: 0
   m_Name: Triangle (42)
@@ -276230,6 +278016,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1844980396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1844980391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1850892877
 GameObject:
   m_ObjectHideFlags: 0
@@ -276421,6 +278221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854116938}
   - component: {fileID: 1854116939}
+  - component: {fileID: 1854116941}
   - component: {fileID: 1854116940}
   m_Layer: 0
   m_Name: Circle (5)
@@ -276535,6 +278336,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.00000047683716}
   m_Radius: 0.5
+--- !u!114 &1854116941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854116937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1855976060
 GameObject:
   m_ObjectHideFlags: 0
@@ -276726,6 +278541,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1856948934}
   - component: {fileID: 1856948933}
+  - component: {fileID: 1856948938}
   - component: {fileID: 1856948935}
   - component: {fileID: 1856948936}
   - component: {fileID: 1856948937}
@@ -276948,6 +278764,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1856948938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856948932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1865762760
 GameObject:
   m_ObjectHideFlags: 0
@@ -277451,6 +279281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1899273734}
   - component: {fileID: 1899273733}
+  - component: {fileID: 1899273738}
   - component: {fileID: 1899273735}
   - component: {fileID: 1899273736}
   - component: {fileID: 1899273737}
@@ -277673,6 +279504,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1899273738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899273732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1904127197
 GameObject:
   m_ObjectHideFlags: 0
@@ -278042,6 +279887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1911247930}
   - component: {fileID: 1911247932}
+  - component: {fileID: 1911247934}
   - component: {fileID: 1911247933}
   m_Layer: 0
   m_Name: Triangle (20)
@@ -278170,6 +280016,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1911247934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911247929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1913556724
 GameObject:
   m_ObjectHideFlags: 0
@@ -278727,6 +280587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1941916633}
   - component: {fileID: 1941916634}
+  - component: {fileID: 1941916636}
   - component: {fileID: 1941916635}
   m_Layer: 0
   m_Name: Circle (1)
@@ -278841,6 +280702,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1941916636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941916632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1976136610
 GameObject:
   m_ObjectHideFlags: 0
@@ -278851,6 +280726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976136612}
   - component: {fileID: 1976136611}
+  - component: {fileID: 1976136616}
   - component: {fileID: 1976136613}
   - component: {fileID: 1976136614}
   - component: {fileID: 1976136615}
@@ -279073,6 +280949,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1976136616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976136610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1979686672
 GameObject:
   m_ObjectHideFlags: 0
@@ -279083,6 +280973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1979686673}
   - component: {fileID: 1979686675}
+  - component: {fileID: 1979686677}
   - component: {fileID: 1979686676}
   m_Layer: 0
   m_Name: Triangle (62)
@@ -279211,6 +281102,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &1979686677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979686672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &1981745856
 GameObject:
   m_ObjectHideFlags: 0
@@ -279536,6 +281441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2005336295}
   - component: {fileID: 2005336297}
+  - component: {fileID: 2005336299}
   - component: {fileID: 2005336298}
   m_Layer: 0
   m_Name: Triangle (29)
@@ -279664,6 +281570,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2005336299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005336294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2006597745
 GameObject:
   m_ObjectHideFlags: 0
@@ -279761,6 +281681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2011739429}
   - component: {fileID: 2011739430}
+  - component: {fileID: 2011739432}
   - component: {fileID: 2011739431}
   m_Layer: 0
   m_Name: Circle (14)
@@ -279875,6 +281796,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: -0.000015258789, y: 0.00000023841858}
   m_Radius: 0.5
+--- !u!114 &2011739432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011739428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2018179986
 GameObject:
   m_ObjectHideFlags: 0
@@ -280059,6 +281994,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032184737}
   - component: {fileID: 2032184739}
+  - component: {fileID: 2032184740}
   - component: {fileID: 2032184738}
   m_Layer: 0
   m_Name: Circle (34)
@@ -280173,6 +282109,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2032184740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032184736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2032783101
 GameObject:
   m_ObjectHideFlags: 0
@@ -280183,6 +282133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2032783102}
   - component: {fileID: 2032783104}
+  - component: {fileID: 2032783106}
   - component: {fileID: 2032783105}
   m_Layer: 0
   m_Name: Triangle (56)
@@ -280311,6 +282262,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2032783106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032783101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2036267355
 GameObject:
   m_ObjectHideFlags: 0
@@ -280321,6 +282286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2036267356}
   - component: {fileID: 2036267358}
+  - component: {fileID: 2036267360}
   - component: {fileID: 2036267359}
   m_Layer: 0
   m_Name: Triangle (87)
@@ -280449,6 +282415,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2036267360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036267355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2039649787
 GameObject:
   m_ObjectHideFlags: 0
@@ -280680,6 +282660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087121815}
   - component: {fileID: 2087121817}
+  - component: {fileID: 2087121818}
   - component: {fileID: 2087121816}
   m_Layer: 0
   m_Name: Circle (28)
@@ -280794,6 +282775,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2087121818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087121814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2092063896
 GameObject:
   m_ObjectHideFlags: 0
@@ -280804,6 +282799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092063898}
   - component: {fileID: 2092063897}
+  - component: {fileID: 2092063902}
   - component: {fileID: 2092063899}
   - component: {fileID: 2092063900}
   - component: {fileID: 2092063901}
@@ -281026,6 +283022,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2092063902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092063896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2097699337
 GameObject:
   m_ObjectHideFlags: 0
@@ -281036,6 +283046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097699338}
   - component: {fileID: 2097699340}
+  - component: {fileID: 2097699342}
   - component: {fileID: 2097699341}
   m_Layer: 0
   m_Name: Triangle (23)
@@ -281164,6 +283175,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2097699342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097699337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2102274002
 GameObject:
   m_ObjectHideFlags: 0
@@ -281359,6 +283384,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129691619}
   - component: {fileID: 2129691621}
+  - component: {fileID: 2129691623}
   - component: {fileID: 2129691622}
   m_Layer: 0
   m_Name: Triangle (80)
@@ -281487,6 +283513,20 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
+--- !u!114 &2129691623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129691618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cda1dccb3dee845a3a365244c40f76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerHealth: {fileID: 527605760}
+  damage: 1
 --- !u!1 &2131027221
 GameObject:
   m_ObjectHideFlags: 0
