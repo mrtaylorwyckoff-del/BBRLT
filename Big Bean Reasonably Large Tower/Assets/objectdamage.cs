@@ -9,7 +9,10 @@ public class objectdamage : MonoBehaviour
     public int damage = 1;
     void Start()
     {
-        
+        if (playerHealth == null)
+        {
+            playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        }
     }
 
     // Update is called once per frame
