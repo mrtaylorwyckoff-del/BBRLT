@@ -1,7 +1,7 @@
 using System.Collections;   
 using System.Collections.Generic;   
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class objectdamage : MonoBehaviour
 {
@@ -32,10 +32,6 @@ public class objectdamage : MonoBehaviour
             }
       
     }
-    public void SwapCurrentScene(string name, string cause)
-    {
-        endCause = cause;
-        SceneManager.LoadScene(name);   
-    }
+
 }
 
