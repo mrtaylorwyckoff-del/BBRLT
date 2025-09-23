@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D rb2d;
 
     private float _movement;
+    private float _jump;
 
     // Update is called once per frame
     void Update()
@@ -26,6 +27,7 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-
+        rb2d.linearVelocityX += 20;
+        Debug.Log("Jumped" + rb2d.linearVelocityX);
     }
     }
