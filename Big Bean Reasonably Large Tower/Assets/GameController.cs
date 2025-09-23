@@ -30,5 +30,5 @@ public class GameController : MonoBehaviour
     void Respawn()
     {
         transform.position = startPos;
-    }   
+    }
 }

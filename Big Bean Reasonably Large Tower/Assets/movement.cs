@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 public class Movement : MonoBehaviour
 {
     public float speed;
-    public float jumpHeight;
+    public float jumpHeight = 1;
 
 
     public Rigidbody2D rb2d;
@@ -26,9 +26,6 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
- 
 
-        }
     }
-
-
+    }

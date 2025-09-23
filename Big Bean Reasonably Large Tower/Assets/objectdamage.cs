@@ -21,21 +21,22 @@ public class objectdamage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            if(collision.gameObject.tag == "Player")
-            {
-                playerHealth.TakeDamage(1); 
-            }
-      
+        if (collision.gameObject.tag == "Player")
+        {
+            playerHealth.TakeDamage(1);
+        }
+
     }
     public void SwapCurrentScene(string name, string cause)
     {
         endCause = cause;
-        SceneManager.LoadScene(name);   
+        SceneManager.LoadScene(name);
     }
+   
 }
 
