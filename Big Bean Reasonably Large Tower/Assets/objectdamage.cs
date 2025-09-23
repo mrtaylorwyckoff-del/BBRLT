@@ -1,6 +1,7 @@
 using System.Collections;   
 using System.Collections.Generic;   
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class objectdamage : MonoBehaviour
@@ -32,15 +33,12 @@ public class objectdamage : MonoBehaviour
         }
 
     }
-<<<<<<< HEAD
     public void SwapCurrentScene(string name, string cause)
     {
         endCause = cause;
         SceneManager.LoadScene(name);
     }
    
-=======
-
->>>>>>> 1f46dc7c66b7a3327d885e0b6db8275273e94264
 }
 
+ 
