@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 91c9272e439d94748aeecaf7241d87f0
+guid: e9aa28eb10210d047bb1a3f92459ef69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4398550344523730950
-    second: stone bricks with plants_0
+      213: 6101140147230178181
+    second: baked boeens_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stone bricks with plants_0
+      name: baked boeens_0
       rect:
         serializedVersion: 2
         x: 0
@@ -134,15 +134,15 @@ TextureImporter:
         width: 100
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 600520cdb3aca0d30800000000000000
-      internalID: 4398550344523730950
+      spriteID: 58b778083aa9ba450800000000000000
+      internalID: 6101140147230178181
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4537cbbf566e7734ebe361fcb046eef5
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stone bricks with plants_0: 4398550344523730950
+      baked boeens_0: 6101140147230178181
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
