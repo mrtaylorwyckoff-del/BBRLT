@@ -1,12 +1,15 @@
 using System.Collections;   
 using System.Collections.Generic;   
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class objectdamage : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public PlayerHealth playerHealth;
     public int damage = 1;
+    private string endCause;
+
     void Start()
     {
         if (playerHealth == null)
@@ -28,6 +31,11 @@ public class objectdamage : MonoBehaviour
                 playerHealth.TakeDamage(1); 
             }
       
+    }
+    public void SwapCurrentScene(string name, string cause)
+    {
+        endCause = cause;
+        SceneManager.LoadScene(name);   
     }
 }
 
