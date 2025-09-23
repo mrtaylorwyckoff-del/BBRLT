@@ -1,10 +1,34 @@
-﻿using System;
+﻿using System.Collections;   
+using System.Collections.Generic;
 using UnityEngine;
 
-internal class GameController
+public class GameController : MonoBehaviour
 {
-    internal void UpdateCheckpoint(Vector3 position)
+    public Vector2 startPos;
+
+    // Add this method to fix CS1061
+    public void UpdateCheckpoint(Vector3 checkpointPosition)
     {
-        throw new NotImplementedException();
+        startPos = checkpointPosition;
     }
+
+    private void Start()
+    {
+        startPos = transform.position;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Obstacle"))
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Respawn();
+    }
+    void Respawn()
+    {
+        transform.position = startPos;
+    }   
 }
