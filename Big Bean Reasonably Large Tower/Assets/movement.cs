@@ -27,7 +27,7 @@ public class Movement : MonoBehaviour
 
     public void Jump(InputAction.CallbackContext ctx)
     {
-        rb2d.linearVelocityX += 20;
-        Debug.Log("Jumped" + rb2d.linearVelocityX);
+        rb2d.linearVelocityY = 6;
+        
     }
     }
