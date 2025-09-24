@@ -15011,7 +15011,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpHeight: 6.7
+  maxJumps: 3
   rb2d: {fileID: 527605756}
+  animator: {fileID: 0}
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheck: {fileID: 0}
+  groundCheckRadius: 0.2
 --- !u!114 &527605755
 MonoBehaviour:
   m_ObjectHideFlags: 0
