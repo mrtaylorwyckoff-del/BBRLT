@@ -6,12 +6,14 @@ public class Movement : MonoBehaviour
 {
     public float speed;
     public float jumpHeight = 1;
-
+    
 
     public Rigidbody2D rb2d;
 
     private float _movement;
     private float _jump;
+
+
 
     // Update is called once per frame
     void Update()

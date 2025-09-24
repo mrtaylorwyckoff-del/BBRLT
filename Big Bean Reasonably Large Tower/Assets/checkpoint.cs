@@ -9,11 +9,12 @@ public class checkpoint : MonoBehaviour
         gameController= GameObject.FindGameObjectWithTag("Player").GetComponent<GameController>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collison)
+    void OnTriggerEnter2D(Collider2D collison)
     {
     
         if (collison.CompareTag("Player"))
         {
+            Debug.Log("FGsgio");
             gameController.UpdateCheckpoint(respawnPoint.position);
         }
 

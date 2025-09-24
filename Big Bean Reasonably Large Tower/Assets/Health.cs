@@ -7,13 +7,18 @@ public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
     public int health;
-    private Vector3 startPos;
-    private int lives = 3;  
+    //private Vector3 startPos;
+    private int lives = 3;
+    GameController gameController;
 
     void Start()
     {
         health = maxHealth;
+
+
+        gameController = GameObject.FindGameObjectWithTag("Player").GetComponent<GameController>();
     }
+
 
     public void TakeDamage(int amount)
     {
@@ -39,7 +44,7 @@ public class PlayerHealth : MonoBehaviour
     }
     void Respawn()
     {
-        transform.position = startPos;
+        transform.position = new Vector3(46.3f, 59.37f, 0f);
     }
 
 }
